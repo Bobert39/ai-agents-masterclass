@@ -65,7 +65,7 @@ services:
       - 5432:5432
     environment:
       - POSTGRES_USER daddyr
-      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_PASSWORD=daddyr
       - POSTGRES_DB
     volumes:
       - postgres_storage:/var/lib/postgresql/data
