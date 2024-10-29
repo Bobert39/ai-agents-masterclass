@@ -64,7 +64,7 @@ services:
     ports:
       - 5432:5432
     environment:
-      - POSTGRES_USER daddyr
+      - POSTGRES_USER=daddyr
       - POSTGRES_PASSWORD=daddyr
       - POSTGRES_DB=n8n
     volumes:
